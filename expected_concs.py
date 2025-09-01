@@ -13,7 +13,7 @@ expected_concs_EIS = {
     '13C6-PFDA': 1.25,'13C7-PFUnA': 1.25, '13C2-PFDoA': 1.25, '13C2-PFTeDA': 1.25
 }
 expected_target_conc_1 = [0.8, 2, 5, 10, 20, 50, 250]
-expected_target_conc_2 = [2, 5, 12.5, 25, 50, 25, 625]
+expected_target_conc_2 = [2, 5, 12.5, 25, 50, 125, 625]
 expected_target_conc_3 = [0.2, 0.5, 1.25, 2.5, 5, 12.5, 62.5]
 
 expected_concs_target_analytes = {

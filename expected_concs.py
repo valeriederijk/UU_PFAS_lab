@@ -17,8 +17,8 @@ expected_target_conc_2 = [2, 5, 12.5, 25, 50, 125, 625]
 expected_target_conc_3 = [0.2, 0.5, 1.25, 2.5, 5, 12.5, 62.5]
 
 expected_concs_target_analytes = {
-    'PFBA': expected_target_conc_1, '4:2 FTS': expected_target_conc_1,
-    '6:2 FTS': expected_target_conc_1, '8:2 FTS': expected_target_conc_1,
+    'PFBA': expected_target_conc_1, '4:2FTS': expected_target_conc_1,
+    '6:2FTS': expected_target_conc_1, '8:2FTS': expected_target_conc_1,
     'HFPO-DA': expected_target_conc_1, 'ADONA': expected_target_conc_1,
     '11Cl-PF3OUdS': expected_target_conc_1, '9Cl-PF3ONS': expected_target_conc_1,
     'PFPeA': [0.4, 1, 2.5, 5, 10, 25, 125],

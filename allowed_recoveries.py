@@ -55,6 +55,56 @@ EIS_NIS_compound_recovery_aqueous = pd.DataFrame({
     ]
 })
 
+EIS_NIS_compound_recovery_solid = pd.DataFrame({
+    'compound': [
+        '13C4-PFBA',
+        '13C5-PFPeA', 
+        '13C5-PFHxA',
+        '13C4-PFHpA',
+        '13C8-PFOA',
+        '13C9-PFNA',
+        '13C6-PFDA',
+        '13C7-PFUnA',
+        '13C2-PFDoA',
+        '13C2-PFTeDA',
+        '13C3-PFBS',
+        '13C3-PFHxS',
+        '13C8-PFOS',
+        '13C2-4:2FTS',
+        '13C2-6:2FTS',
+        '13C2-8:2FTS',
+        '13C8-PFOSA',
+        'D3-NMeFOSA',
+        'D5-NEtFOSA',
+        'D3-NMeFOSAA',
+        'D5-NEtFOSAA',
+        'D7-NMeFOSE',
+        'D9-NEtFOSE',
+        '13C3-HFPO-DA',
+        '13C3-PFBA',
+        '13C2-PFHxA',
+        '13C4-PFOA',
+        '13C5-PFNA', 
+        '13C2-PFDA',
+        '18O2-PFHxS',
+        '13C4-PFOS'
+    ],
+    'compound_type': [
+        'EIS', 'EIS', 'EIS', 'EIS', 'EIS', 'EIS', 'EIS', 'EIS', 'EIS', 'EIS', 'EIS', 'EIS',
+        'EIS', 'EIS', 'EIS', 'EIS', 'EIS', 'EIS', 'EIS', 'EIS', 'EIS', 'EIS', 'EIS', 'EIS',
+        'NIS', 'NIS', 'NIS', 'NIS', 'NIS', 'NIS', 'NIS'
+    ],
+    'lower_recovery_percent': [
+        8, 35, 40, 40, 40, 40, 40, 40, 40, 20, 40, 40, 40, 40, 40, 40, 40, 10, 10, 40, 40, 20, 15, 40,
+        50, 50, 50, 50, 50, 50, 50 
+    ],
+    'upper_recovery_percent': [
+        130, 130, 130, 130, 130, 130, 130, 130, 130, 130, 135, 130, 130, 165, 215, 275, 130, 130, 130, 150, 150, 130, 130,
+        130, 200, 200, 200, 200, 200, 200, 200  
+    ]
+})
+
+
 IPR_recovery_rsd_solid = pd.DataFrame({
     'compound': [
         'PFBA','PFPeA','PFHxA','PFHpA','PFOA','PFNA','PFDA','PFUnA','PFDoA','PFTrDA',

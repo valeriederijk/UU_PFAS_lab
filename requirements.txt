@@ -1,6 +1,5 @@
 pandas
 matplotlib
 numpy
-openpyxl
-seaborn
-scikit-learn
+math
+importlib

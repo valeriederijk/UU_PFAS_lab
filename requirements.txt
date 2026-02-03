@@ -1,5 +1,6 @@
 pandas
 matplotlib
 numpy
-math
-importlib
+jupyter
+seaborn
+scikit-learn

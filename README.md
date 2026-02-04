@@ -157,9 +157,8 @@ GitHub Desktop is not officially available for Linux. Use the command-line Git m
 3. Click the **URL** tab
 4. Paste the repository URL:
    ```
-   https://github.com/[USERNAME]/UU_PFAS_lab.git
+   https://github.com/valeriederijk/UU_PFAS_lab.git
    ```
-   Replace `[USERNAME]` with the actual GitHub username
 5. Choose a local path where you want to save the repository
 6. Click **Clone**
 7. GitHub Desktop will download the repository to your computer
@@ -175,10 +174,8 @@ GitHub Desktop is not officially available for Linux. Use the command-line Git m
 1. Open Command Prompt/Terminal in the folder where you want to clone the repo
 2. Run:
    ```
-   git clone https://github.com/[USERNAME]/UU_PFAS_lab.git
+   git clone https://github.com/valeriederijk/UU_PFAS_lab.git
    ```
-   Replace `[USERNAME]` with the actual GitHub username
-
 3. Navigate to the repository:
    ```
    cd UU_PFAS_lab
@@ -186,7 +183,7 @@ GitHub Desktop is not officially available for Linux. Use the command-line Git m
 
 #### Method 3: Using HTTPS (If SSH is not configured):
 ```bash
-git clone https://github.com/[USERNAME]/UU_PFAS_lab.git
+git clone https://github.com/valeriederijk/UU_PFAS_lab.git
 cd UU_PFAS_lab
 ```
 

@@ -223,7 +223,7 @@ This repository contains PFAS quantitative calculations. Key files:
 
 To run the Jupyter notebook:
 ```bash
-jupyter notebook Quantitative_calc_PFAS_clean2.ipynb
+jupyter notebook Quantitative_calc.ipynb
 ```
 
 ---
